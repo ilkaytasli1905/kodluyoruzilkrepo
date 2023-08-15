@@ -1,0 +1,78 @@
+body 
+{
+    font-family: 'Borel', cursive;
+    text-transform: capitalize;
+    background-color: rgb(191, 225, 255);
+}
+h1 
+{ 
+    color: #35155D;
+    font-size: 42px; 
+}
+h2 
+{ 
+    color: #512B81; 
+    font-size: 34px;
+}
+h3 
+{ 
+    color: #4477CE; 
+    font-size: 26px;
+}
+h4 
+{ 
+    color: #4477CE; 
+    font-size: 22px;
+}
+img
+{
+    width: 500px;
+    /* Frame */
+    --red: rgb(92, 102, 245);
+    --bgColor: rgb(184, 154, 255);
+    display: grid;
+    place-items: center;
+    box-shadow:
+    -50px -50px 0 -40px var(--red),
+    50px 50px 0 -40px var(--red);
+    /* Centered imgs */
+    margin-left: auto;
+    margin-right: auto;
+}
+li { color: blueviolet;}
+
+/* colorhunt.co Marceline color palette */
+.color-1 { color: #35155D; }
+.color-2 { color: #512B81; }
+.color-3 { color: #4477CE; }
+.color-4 { color: #547fca; }
+.color-5 { color: #6390df; }
+
+/* text font sizes */
+.fn-42 { font-size: 42px; }
+.fn-34 { font-size: 34px; }
+.fn-26 { font-size: 26px; }
+.fn-22 { font-size: 22px; }
+
+/* align text or image */
+.alig-center-text { text-align: center;}
+.alig-center-img 
+{
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Left and Right Align - Using position */
+.alig-right
+{
+    position: absolute;
+    right: 0px;
+}
+span.inline { display: inline-block; }
+/* Floating images right with text wrapping */
+img.float-right 
+{ 
+    float: right;    
+    margin: 0 0 0 15px;
+}
